@@ -1,0 +1,20 @@
+---
+title: "Forecasting Motor Accidents in Region X"
+author: "Primrose Estrada"
+date: "`r Sys.time()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook: default
+bibliography: ["myRef.bib"]
+biblio-style: "apalike"
+link-citations: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Abstract {-}
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
